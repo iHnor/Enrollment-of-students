@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/intern/projects/Enrollment-of-students/internshiptest.csproj": {}
+    "/home/bookadmin/projects/InCamp22/Enrollment-of-students/internshiptest.csproj": {}
   },
   "projects": {
-    "/home/intern/projects/Enrollment-of-students/internshiptest.csproj": {
+    "/home/bookadmin/projects/InCamp22/Enrollment-of-students/internshiptest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/intern/projects/Enrollment-of-students/internshiptest.csproj",
+        "projectUniqueName": "/home/bookadmin/projects/InCamp22/Enrollment-of-students/internshiptest.csproj",
         "projectName": "internshiptest",
-        "projectPath": "/home/intern/projects/Enrollment-of-students/internshiptest.csproj",
-        "packagesPath": "/home/intern/.nuget/packages/",
-        "outputPath": "/home/intern/projects/Enrollment-of-students/obj/",
+        "projectPath": "/home/bookadmin/projects/InCamp22/Enrollment-of-students/internshiptest.csproj",
+        "packagesPath": "/home/bookadmin/.nuget/packages/",
+        "outputPath": "/home/bookadmin/projects/InCamp22/Enrollment-of-students/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/intern/.nuget/NuGet/NuGet.Config"
+          "/home/bookadmin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

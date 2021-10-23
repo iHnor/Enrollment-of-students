@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "55bQGM1e5Jka2ec7sv2m3erWDY6I965r+YxWq4EMLzCoO2BL67qqKqMkJGp8GTKrj5F58WWpxHvW3VQMTVbdKg==",
+  "dgSpecHash": "aiFOwObBc21Q4Yjzyo145aOBmJsfLQ37TJbAIcaPjrKv0Bf+Rr90ezQRu9TlBsOleNICHmCjEFb6VPmjVIEQTQ==",
   "success": true,
-  "projectFilePath": "/home/intern/projects/Enrollment-of-students/internshiptest.csproj",
+  "projectFilePath": "/home/bookadmin/projects/InCamp22/Enrollment-of-students/internshiptest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

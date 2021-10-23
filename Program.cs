@@ -12,13 +12,13 @@ namespace InternshipTest
             Internship internship = new Internship("Interlink");
             
             University university = new University("CH.U.I.");
-            university.AddStudent(new Student("Andrew Kostenko", 4));
+            university.AddStudent(new Student("Andrew Kostenko", 5));
             university.AddStudent(new Student("Julia Veselkina", 10));
-            university.AddStudent(new Student("Maria Perechrest", 2));
+            university.AddStudent(new Student("Maria Perechrest", 7));
 
             
             Console.WriteLine("List of internship's students:");
-            Console.WriteLine(internship.GetStudents());
+            Console.WriteLine(internship.GetStudents(university));
         }
     }
 }

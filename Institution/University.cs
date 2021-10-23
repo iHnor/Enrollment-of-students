@@ -18,6 +18,8 @@ namespace InternshipTest.Institution
             this.students.Add(student);
         }
 
+        public List<Student> GetAllStudentsInUniversity(){return students;}
+
         public int CalcAvgKnowledge(){
             int sum = 0;
             foreach(var student in students){

@@ -7,23 +7,37 @@ namespace InternshipTest.Institution.InterLink
     public class Internship
     {
         private string name;
-        private List<Student> students = new List<Student>();
 
         public Internship(string name)
         {
             this.name = name;
         }
 
-        // public AddUniversity(University university){
-            // if(university.CalcAvgKnowledge() >= 5){
-            //     students.Add(university)
-            // }
-        // }
-
-        public string GetStudents()
+        /* public AddToInterLink(University university)
         {
-            //TODO: Implementation is needed
-            return "Andrew Maslenko\nJulia Veselkina\n";
+            foreach (Student student in university.GetAllStudentsInUniversity())
+            {
+                if (student.GetKnowledge().GetLevel() >= university.CalcAvgKnowledge())
+                {
+                    this.students.Add(student);
+                }
+
+            }
+        } */
+
+        public string GetStudents(University university)
+        {
+            string listOfInterns = "";
+            foreach (Student student in university.GetAllStudentsInUniversity())
+            {
+                if (student.GetKnowledge().GetLevel() >= university.CalcAvgKnowledge())
+                {
+                    //this.students.Add(student);
+                    listOfInterns += $"{student.GetName()}\n";
+                }
+
+            }
+            return listOfInterns;
         }
     }
 }
